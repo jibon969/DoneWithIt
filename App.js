@@ -16,8 +16,7 @@ export default function App() {
           uri : "https://picsum.photos/200/300"}}
       />
       </TouchableOpacity>
-      
-      <Button title='Click Me' onPress={() =>Alert.alert("My Title", "My Message",[
+      <Button title='Click Me' onPress={() =>Alert.alert("My Title", "Your Message",[
         {text: "Yes"},
         {text: "No"},
       ])} />
