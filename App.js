@@ -1,9 +1,10 @@
 
-import WelcomeScreen from './app/screens/WelcomeScreen';
+
+import FlexBox from './app/screens/FlexBoxScreen';
 
 export default function App() {
   return (
-    <WelcomeScreen></WelcomeScreen>
+    <FlexBox></FlexBox>
   );
 }
 
