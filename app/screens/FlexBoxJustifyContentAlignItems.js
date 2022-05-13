@@ -1,23 +1,25 @@
 import React from 'react';
 import { View } from 'react-native';
 
-const FlexBoxScreen = () => {
+const FlexBoxJustifyContentAlignItems = () => {
     return (
         <View style={{
             backgroundColor:"#FFF",
             flex:1,
-            flexDirection:"row-reverse"
+            flexDirection:"row",
+            justifyContent:"center",
+            alignItems:"baseline"
         }}>
             <View style={{
-                backgroundColor:"blue",
-                height:100,
+                backgroundColor:"dodgerblue",
+                height:300,
                 width:100
                 }}
             >
             </View>
             <View  style={{
-                backgroundColor:"red",
-                height:100,
+                backgroundColor:"yellow",
+                height:200,
                 width:100
                 }}>
             </View>
@@ -32,4 +34,4 @@ const FlexBoxScreen = () => {
     );
 };
 
-export default FlexBoxScreen;
+export default FlexBoxJustifyContentAlignItems;
