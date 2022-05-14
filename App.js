@@ -1,12 +1,8 @@
 
-
-import FlexBox from './app/screens/FlexBoxScreen';
-import FlexBoxDirection from './app/screens/FlexBoxDirection';
-import FlexBoxJustifyContentAlignItems from './app/screens/FlexBoxJustifyContentAlignItems';
-
+import Borders from './app/screens/Borders';
 export default function App() {
   return (
-    <FlexBoxJustifyContentAlignItems></FlexBoxJustifyContentAlignItems>
+    <Borders></Borders>
   );
 }
 
