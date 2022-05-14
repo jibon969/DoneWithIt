@@ -8,7 +8,7 @@ const FlexBoxJustifyContentAlignItems = () => {
             flex:1,
             flexDirection:"row",
             justifyContent:"center",
-            alignItems:"baseline"
+            alignItems:"  "
         }}>
             <View style={{
                 backgroundColor:"dodgerblue",
