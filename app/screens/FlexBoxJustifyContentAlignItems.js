@@ -1,5 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
+import Ionicons from '@expo/vector-icons/Ionicons';
 
 const FlexBoxJustifyContentAlignItems = () => {
     return (
@@ -16,6 +17,7 @@ const FlexBoxJustifyContentAlignItems = () => {
                 width:100
                 }}
             >
+                <Ionicons name="md-checkmark-circle" size={32} color="green" />
             </View>
             <View  style={{
                 backgroundColor:"yellow",
