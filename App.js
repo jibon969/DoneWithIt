@@ -1,8 +1,8 @@
 
-import Borders from './app/screens/Borders';
+import Shadows from './app/screens/Shadows';
 export default function App() {
   return (
-    <Borders></Borders>
+    <Shadows></Shadows>
   );
 }
 
