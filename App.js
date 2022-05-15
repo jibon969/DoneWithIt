@@ -1,12 +1,13 @@
 import React from "react";
-import AppText from "./app/components/AppText";
-import { View, StyleSheet } from 'react-native'
+import AppButton from "./app/components/Button/AppButton";
+
+import { StyleSheet, TouchableOpacity } from 'react-native'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <AppText>Hello There</AppText>
-    </View>
+    <TouchableOpacity style={styles.container}>
+      <AppButton title="login"/>
+    </TouchableOpacity>
   );
 }
 
