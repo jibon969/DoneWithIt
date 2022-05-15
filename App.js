@@ -1,8 +1,11 @@
+import AppText from "./app/components/AppText";
+import { View } from 'react-native'
 
-import Shadows from './app/screens/Shadows';
 export default function App() {
   return (
-    <Shadows></Shadows>
+    <View>
+      <AppText>Hello There</AppText>
+    </View>
   );
 }
 

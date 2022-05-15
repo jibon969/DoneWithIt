@@ -14,8 +14,8 @@ const Shadows = () => {
             style={{
                 backgroundColor:"red",
                 width:100,
-                height:100,
-                elevation:10
+                height:100,                                                                                                                                                                          
+                elevation:10                                     
             }}
             />
             
